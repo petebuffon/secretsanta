@@ -1,5 +1,4 @@
 function Base64DecodeUrl(str){
-    str = (str + '===').slice(0, str.length + (str.length % 4));
     return atob(str.replace(/-/g, '+').replace(/_/g, '/'));
 }
 
