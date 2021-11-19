@@ -1,5 +1,3 @@
-// file:///home/pete/secretsanta/index.html?name=pete&msg=EtH_-BerP65VNDPqBqciTRa6noxy_0CV11674nHnhmc=&doc=
-
 function Base64DecodeUrl(str){
     str = (str + '===').slice(0, str.length + (str.length % 4));
     return atob(str.replace(/-/g, '+').replace(/_/g, '/'));
