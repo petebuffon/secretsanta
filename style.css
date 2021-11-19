@@ -1,0 +1,43 @@
+html {
+  background: url("winter_floral.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "Praise";
+  src: url("Praise-Regular.ttf");
+}
+
+body {
+  font-family: "Praise";
+  font-size: 3rem;
+  color: #cc1f24;
+}
+
+.center{
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center > p, h2{
+  margin: 0;
+}
+
+.footer{
+  height: 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #0c375c;
+  text-decoration: none;
+}
