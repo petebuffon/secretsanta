@@ -1,5 +1,5 @@
 html {
-  background: url("winter_floral.jpg") no-repeat center center fixed;
+  background: url("winter_floral_background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,30 +7,41 @@ html {
 }
 
 @font-face {
-  font-family: "Praise";
-  src: url("Praise-Regular.ttf");
+  font-family: "Fredoka One";
+  src: url("FredokaOne-Regular.ttf");
 }
 
 body {
-  font-family: "Praise";
+  font-family: "Fredoka One";
   font-size: 3rem;
-  color: #cc1f24;
+  color: #194898;
 }
 
 .center{
-  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.center > p, h2{
-  margin: 0;
+.center > h2{
+  margin-top: 0;
 }
 
+.center > p{
+  margin-bottom: 0;
+}
+
+p{
+  margin: 1rem; 
+}
+
+#assignment{
+  font-size: 4rem;
+  font-weight: bold;
+}
 .footer{
-  height: 0vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +49,6 @@ body {
 }
 
 a {
-  color: #0c375c;
+  color: #194898;
   text-decoration: none;
 }
