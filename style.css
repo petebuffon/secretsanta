@@ -1,5 +1,5 @@
 html {
-  background: url("winter_floral_background.jpg") no-repeat center center fixed;
+  background: url("package_background.avif") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,14 +7,14 @@ html {
 }
 
 @font-face {
-  font-family: "Fredoka One";
-  src: url("FredokaOne-Regular.ttf");
+  font-family: "Meow Script";
+  src: url("MeowScript-Regular.ttf");
 }
 
 body {
-  font-family: "Fredoka One";
-  font-size: 3rem;
-  color: #194898;
+  font-family: "Meow Script";
+  font-size: 4rem;
+  color: #eae7e5;
 }
 
 .center{
@@ -40,13 +40,6 @@ p{
   font-size: 4rem;
   font-weight: bold;
 }
-.footer{
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-}
 
 a {
   color: #194898;
@@ -56,7 +49,7 @@ a {
 @media screen and (max-width: 629px) {
   /* comes into effect for screens less than or equal to 320 pixels */
   body{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 }
